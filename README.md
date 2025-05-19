@@ -29,7 +29,7 @@ This project highlights **two core sections**:
 ## 📁 Project Structure
 
 ```plaintext
-sakha-study-app/
+sakha/
 ├── assets/
 │ └── illustrations/
 │ ├── tired-student.svg
@@ -52,5 +52,5 @@ sakha-study-app/
 
 1. Clone the repo  
    ```bash
-   git clone https://github.com/your-username/sakha-study-app.git
-   cd sakha-study-app
+   git clone https://github.com/AshishMaurya93/sakha.git
+   cd sakha
