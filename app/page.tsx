@@ -2,6 +2,8 @@ import { Navbar } from "@/components/navbar"
 import { Footer } from "@/components/footer"
 import { ProblemSection } from "@/components/problem-section"
 import { SolutionSection } from "@/components/solution-section"
+import { TiredStudentSVG } from "@/components/svg/tired-student"
+import Image from "next/image"
 
 export default function Home() {
   return (
@@ -16,8 +18,20 @@ export default function Home() {
             </p>
           </div>
 
-          <ProblemSection />
-          <SolutionSection />
+          {/* <ProblemSection /> */}
+          <div className="flex justify-center mb-16">
+            <div className="w-full ">
+              {/* <TiredStudentSVG /> */}
+              <Image
+                src="./line art.svg"
+                alt="Line Art"
+                width={2000}
+                height={2000}
+                className="w-full h-auto"
+              />
+            </div>
+          </div>
+          {/* <SolutionSection /> */}
         </div>
       </main>
       <Footer />

@@ -10,14 +10,14 @@ export function Navbar() {
             Sakha
           </Link>
         </div>
-        <nav className="hidden space-x-8 md:flex">
+        {/* <nav className="hidden space-x-8 md:flex">
           <Link href="#problem" className="text-sm font-medium text-gray-600 hover:text-gray-900">
             The Problem
           </Link>
           <Link href="#solution" className="text-sm font-medium text-gray-600 hover:text-gray-900">
             The Solution
           </Link>
-        </nav>
+        </nav> */}
         <Button variant="outline" className="rounded-full">
           Learn More
         </Button>

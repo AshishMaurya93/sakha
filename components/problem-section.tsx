@@ -19,11 +19,11 @@ export function ProblemSection() {
             provide a conducive environment for studying.
           </p>
         </div>
-        <div className="order-1 flex justify-center md:order-2">
+        {/* <div className="order-1 flex justify-center md:order-2">
           <div className="w-full max-w-md">
             <TiredStudentSVG />
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   )

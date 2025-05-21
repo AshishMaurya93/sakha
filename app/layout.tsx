@@ -19,10 +19,12 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={inter.className}>
-        <ThemeProvider attribute="class" defaultTheme="light" enableSystem>
+      <body 
+      className={inter.className}
+      >
+        {/* <ThemeProvider attribute="class" defaultTheme="light" enableSystem> */}
           {children}
-        </ThemeProvider>
+        {/* </ThemeProvider> */}
       </body>
     </html>
   )

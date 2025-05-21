@@ -5,9 +5,9 @@ export function SolutionSection() {
     <section id="solution" className="mb-24 scroll-mt-16">
       <div className="grid gap-12 md:grid-cols-2 md:items-center">
         <div className="flex justify-center">
-          <div className="w-full max-w-md">
+          {/* <div className="w-full max-w-md">
             <CheerfulStudentSVG />
-          </div>
+          </div> */}
         </div>
         <div>
           <h2 className="mb-6 text-3xl font-bold md:text-4xl">The Solution</h2>
