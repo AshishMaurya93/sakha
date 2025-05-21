@@ -30,14 +30,49 @@ This project highlights **two core sections**:
 
 ```plaintext
 sakha/
-├── assets/
-│ └── illustrations/
-│ ├── tired-student.svg
-│ └── cheerful-student.svg
+├── app/
+│   ├── globals.css            # Global styles for the application
+│   ├── layout.tsx             # Main layout component
+│   └── page.tsx               # Main entry page
+│
+├── components/
+│   ├── svg/
+│   │   ├── cheerful-student.tsx   # SVG component - cheerful student
+│   │   └── tired-student.tsx      # SVG component - tired student
+│   ├── footer.tsx                 # Footer component
+│   ├── navbar.tsx                 # Navbar component
+│   ├── problem-section.tsx        # Problem section UI
+│   ├── solution-section.tsx       # Solution section UI
+│   └── theme-provider.tsx         # Theme provider for dark/light mode
+│
+├── hooks/
+│   ├── use-mobile.tsx         # Custom hook to detect mobile devices
+│   └── use-toast.ts           # Custom hook for toast notifications
+│
+├── lib/
+│   └── utils.ts               # Utility functions
+│
+├── public/
+│   ├── line art.svg
+│   ├── placeholder-logo.png
+│   ├── placeholder-logo.svg
+│   ├── placeholder-user.jpg
+│   ├── placeholder.jpg
+│   └── placeholder.svg
+│
 ├── styles/
-│ └── main.css
-├── index.html
-├── README.md
+│   └── globals.css            # Alternative or additional global styles
+│
+├── .gitignore
+├── components.json
+├── next.config.mjs           # Next.js configuration
+├── package-lock.json
+├── package.json
+├── pnpm-lock.yaml
+├── postcss.config.mjs        # PostCSS configuration
+├── tailwind.config.ts        # Tailwind CSS configuration
+├── tsconfig.json             # TypeScript configuration
+└── README.md
 ```
 
 
